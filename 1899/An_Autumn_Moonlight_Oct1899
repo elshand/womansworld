@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Autumn Moonlight.</title>
+            <author>Esther Walker</author>
+            <editor>Oscar Wilde</editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition, transcribed and annotated</edition>
+            <respStmt><resp>New annotations by</resp><name>Michelle Robinson</name></respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title>The Woman's World</title>
+                  <imprint>
+                     <pubPlace></pubPlace>
+                     <publisher></publisher>
+                     <date when="1899-01-10">1 October 1899</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <lg type="poem">
+            <head>An Autumn Moonlight.</head>
+            <lg>
+               <l> Beyond the trancéd shadow of new night</l>
+                <l> Low brooding down long hill and barren field,</l>
+                <l>A deepening whiteness of pure cloud revealed</l>
+                <l>An eastern vestal, burning silver-bright.</l>
+                 <l>And from its fires, far-fanned with mystic might</l>
+                  <l>And voiceless, the enshrinéd queen concealed</l>
+                   <l>Flung straight and wide across the slumbering weald</l>
+                  <l>A radiant arrow, dipped in crystal light.</l>
+               </lg>
+            <lg>
+               <l>And lo! a swift confusion did disclose</l>
+               <l>How Dian stirred within her shroud and fled;</l>
+               <l>Her fleecy veil by sudden tempest riven;</l>
+               <l>And in her full-orbed loveliness uprose,</l>
+               <l>Pale in a deep serenity, and sped</l>
+               <l>Up a high purple pathway into heaven.</l>
+         </lg>
+         </lg>
+         <p><name type="author">Esther Walker.</name></p>
+      </body>
+  </text>
+</TEI>
